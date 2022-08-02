@@ -25,10 +25,9 @@ PATCHNOTE:
 # Spaces in the beginning and at the end of the component name input will not bring an error anymore. 
 # Find Weight Form is now scrollable, which allow to display more than 20 values to the screen without resizing the window to
   access the bottom of the form.
-# following the previous patch, the number of component has been increased to 99 (seriously, is there a buffer where you will need to
-  use that much components?). 
+# following the previous patch, the number of component has been increased to 99. 
 # Edit menu removed because useless.
-# View menu added with possibility to switch between Light mode and Dark mode (yeah, also useless but fun at least :D)
+# View menu added with possibility to switch between Light mode and Dark mode.
 # Find Protein tab implemented: allows to quickly access the .fasta of a protein using its uniprot ID.
 
 1.3
@@ -44,6 +43,9 @@ PATCHNOTE:
 # enzymes implemented: Trypsin, FabRICATOR IdeS, FabULOUS SpeB, GingisKHAN Kgp.
 # MW calculation implemented for the module in Silico Digestion.
 
+1.5
+# m/z Peak Shape tab implemented
+# rework of the save, save as and option tool button on the child windows, so it save the data on the child window. 
 
 You can report bugs and send your advices at this address:
 stanislas.helle@ul.ie
